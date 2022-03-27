@@ -23,7 +23,7 @@ for m in range(n):
     t_1 = int(input())
     print("Enter the element 2 of tuple",m+1,":")
     t_2 = int(input())
-    l.append((t_1,t_2)) # no need to write tuple here as writen above just follow the syntan properly
+    l.append((t_1,t_2)) # no need to write tuple here as writen above just follow the syntax properly
 for i in range(len(l)):
     for j in range(len(l)):
         if l[i][1] < l[j][1]:
